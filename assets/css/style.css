@@ -1,26 +1,28 @@
 /* fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* 
 Logo Text – Goldman
 Menu – Goldman
 Header – Goldman
 Text – Roboto Flex
+
+Logo Text - Asset
+Menu Text - Economica
+Header Text - Economica
+Body Text - Economica
 */
 
 /*  -----------------CSS Variables ----------------- */
 :root {
     /* Font */
     --font-logomenuheading: "Goldman", serif;
-    --font-textbody: "Roboto Flex", serif;
-    /* Color Font */
+    --font-textbody: "Roboto Flex", serif; /* Color Font */
     --bodytext-color: #000000;
     --menufootertext-color: #ffffff;
-    --highlight-color: #EAD615;
-    /* background Color */
-    --boxbackground-color: rgb(200, 201, 204, .9);
-    /* #c8c9cc grey */
-    --contrasting-color: #1a4b82;
-    /* dark blue */
+    --highlight-color: #EAD615; /* background Color */
+    --boxbackground-color: rgb(200, 201, 204, .9); /* #c8c9cc grey */ 
+    --contrasting-color: #1a4b82; /* dark blue */
 }
 
 /*  -----------------Global styles ----------------- */
