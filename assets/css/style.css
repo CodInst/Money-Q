@@ -1,0 +1,286 @@
+/* fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+/* 
+Logo Text – Goldman
+Menu – Goldman
+Header – Goldman
+Text – Roboto Flex
+*/
+
+/*  -----------------CSS Variables ----------------- */
+:root {
+    /* Font */
+    --font-logomenuheading: "Goldman", serif;
+    --font-textbody: "Roboto Flex", serif;
+    /* Color Font */
+    --bodytext-color: #000000;
+    --menufootertext-color: #ffffff;
+    --highlight-color: #EAD615;
+    /* background Color */
+    --boxbackground-color: rgb(200, 201, 204, .9);
+    /* #c8c9cc grey */
+    --contrasting-color: #1a4b82;
+    /* dark blue */
+}
+
+/*  -----------------Global styles ----------------- */
+/* Body - Font and Color */
+body {
+    height: 100%;
+    width: 100%;
+    /*background: url("../images/background-the-flying-nerds.jpg") no-repeat center center/cover;*/
+    background-color: #ffffff;
+    position: relative;
+    font: var(--font-textbody);
+    font-size: 18px;
+    color: var(--bodytext-color);
+}
+
+/* Logo - Font and size*/
+.logotext {
+    font-family: var(--font-logomenuheading);
+    font-weight: 700;
+    color: var(--highlight-color);
+}
+
+/* Menu - Font and size*/
+.menutext {
+    font-family: var(--font-logomenuheading);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+/* Heading and sub-heading - Font and size */
+.headingtext {
+    font-family: var(--font-logomenuheading);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.sub-heading {
+    color: #000000;
+    font-family: var(--font-textbody);
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-style: italic;
+    line-height: 0.6;
+}
+
+/* Navbar */
+#menu {
+    background-color: var(--contrasting-color);
+}
+
+#menu .navbar-brand {
+    color: var(--highlight-color);
+}
+
+#menu .navbar-brand a:hover {
+    color: initial;
+    /* Takes initial value of the property */
+}
+
+/* Navbar Submenu background color & submenu alignement*/
+.dropdown-menu {
+    --bs-dropdown-bg: var(--contrasting-color);
+    --bs-dropdown-link-hover-bg: none;
+    --bs-dropdown-link-hover-color: var(--highlight-color);
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: var(--highlight-color);
+}
+
+/* Navbar submenu alignement*/
+#menu .dropdown-item {
+    text-align: center;
+}
+
+/* Footer - Font, color and size */
+#footer {
+    background-color: var(--contrasting-color);
+    color: var(--menufootertext-color);
+    padding-bottom: 1rem;
+}
+
+#footer h3 {
+    color: var(--highlight-color);
+}
+
+#footer i {
+    color: var(--menufootertext-color);
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+#footer .social-links i {
+    color: var(--menufootertext-color);
+}
+
+#footer .social-links i:hover {
+    color: var(--highlight-color);
+}
+
+/* Footer Hyperlink*/
+#footer .extralinks a {
+    color: var(--menufootertext-color);
+    text-decoration: none;
+}
+
+#footer .extralinks a:hover {
+    color: var(--highlight-color);
+}
+
+/* Newsletter - Font and size */
+#footer p {
+    font-size: 0.9rem;
+}
+
+/* Grey Background for sections*/
+.boxbackgroundcolor {
+    background-color: var(--boxbackground-color);
+}
+
+/*  -----------------Other styles ----------------- */
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    color: var(--contrasting-color);
+}
+
+.spacingsection {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Form Customisation  */
+#textarea {
+    height: 15rem;
+}
+
+#hardware .card-img-overlay {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+#hardware .card-title {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/* Button form, Button Return, Button book, subscribe and button Nav on Ecosystem section*/
+.custombutton-filled {
+    border: 2px solid white;
+    background-color: var(--contrasting-color);
+    color: var(--highlight-color);
+    font-weight: bold;
+}
+
+.custombutton-filled:hover {
+    border: 2px solid #2980B9;
+    background-color: #2980B9;
+    color: white;
+    font-weight: bold;
+}
+
+#ecosystem .nav-link {
+    --bs-nav-link-color: var(--contrasting-color);
+    font-weight: bold;
+
+}
+
+#ecosystem .nav-pills {
+    --bs-nav-pills-link-active-color: var(--highlight-color);
+    --bs-nav-pills-link-active-bg: var(--contrasting-color);
+}
+
+
+
+
+/* Card on Flyshop */
+#services .card-title,
+#services .card-footer {
+    font-weight: Bold;
+}
+
+#services a {
+    color: var(--contrasting-color);
+}
+
+#services a:hover {
+    color: #2980B9;
+}
+
+/* ----------------- Screen Re-sizing ----------------------- */
+/* Medium devices (576px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Logo - Font and size */
+    .logotext {
+        font-size: 1.5rem;
+    }
+
+    /* Heading and sub-heading - Font and size */
+    .headingtext {
+        font-family: var(--font-logomenuheading);
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        color: #000000;
+        font-family: var(--font-textbody);
+        font-weight: 700;
+        font-size: 1.3rem;
+        font-style: italic;
+        line-height: 0.6;
+    }
+
+    #hardware .card-img-overlay {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    #hardware .card-title {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    /* Footer */
+    #footer i {
+        color: var(--menufootertext-color);
+        font-size: 4rem;
+        margin-right: 20px;
+
+    }
+
+    #footer h3 {
+        font-size: 1.8rem;
+    }
+
+    /* Newsletter - Font and size */
+    #footer p {
+        font-size: 1.2rem;
+    }
+
+    /* Navbar */
+    #menu .dropdown-item {
+        text-align: left;
+    }
+
+    #services .card-body {
+        min-height: 219px;
+    }
+}
