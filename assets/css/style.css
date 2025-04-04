@@ -1,5 +1,5 @@
 /* fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Asset&family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Asset&family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* 
 Logo Text - Asset
 Menu Text - Economica
@@ -9,181 +9,175 @@ Body Text - Economica
 
 /*  -----------------CSS Variables ----------------- */
 :root {
-    /* Font */
-    --font-logo: "Asset", serif;
-    --font-menuheadingbody: "Economica", serif; 
-    --bodytext-color: #000000; /* Color Font */
-    --menufootertext-color: #ffffff;
-    --highlight-color: #EAD615; /* background Color */
-    --boxbackground-color: rgb(200, 201, 204, .1); /* #c8c9cc grey */ 
-    --contrasting-color: #1a4b82; /* dark blue */
+  /* Font */
+  --font-logo: "Asset", serif;
+  --font-menuheadingbody: "Economica", serif;
+  --bodytext-color: #000000; /* Color Font */
+  --menufootertext-color: #ffffff;
+  --highlight-color: #ead615; /* background Color */
+  --boxbackground-color: rgb(200, 201, 204, 0.1); /* #c8c9cc grey */
+  --contrasting-color: #1a4b82; /* dark blue */
 }
 
 /*  -----------------Global styles ----------------- */
 /* Body - Font and Color */
 body {
-    background-color: #ffffff;
-    font: var(--font-menuheadingbody);
-    font-size: 18px;
-    color: var(--bodytext-color);
+  background-color: #ffffff;
+  font: var(--font-menuheadingbody);
+  font-size: 18px;
+  color: var(--bodytext-color);
 }
 
 /* Logo - Font and size*/
 .logotext {
-    font-family: var(--font-logo);
-    font-weight: 700;
-    color: var(--highlight-color);
+  font-family: var(--font-logo);
+  font-weight: 700;
+  color: var(--highlight-color);
 }
 
 /* Menu - Font and size*/
 .menutext {
-    font-family: var(--font-menuheadingbody);
-    font-weight: 700;
-    font-size: 1.4rem;
+  font-family: var(--font-menuheadingbody);
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 
 /* Heading - Font and size */
 .headingtext {
-    font-family: var(--font-menuheadingbody);
-    font-weight: 700;
-    line-height:2rem;
-    font-size:1.4rem;
+  font-family: var(--font-menuheadingbody);
+  font-weight: 700;
+  line-height: 2rem;
+  font-size: 1.4rem;
 }
 
 /* Navbar */
 #menu {
-    background-color: var(--contrasting-color);
+  background-color: var(--contrasting-color);
 }
 
 #menu .navbar-brand {
-    color: var(--highlight-color);
+  color: var(--highlight-color);
 }
 
 #menu .navbar-brand a:hover {
-    color: initial; /* Takes initial value of the property */
+  color: initial; /* Takes initial value of the property */
 }
 
 /* Footer - Font, color and size */
 #footer {
-    background-color: var(--contrasting-color);
-    color: var(--menufootertext-color);
-    padding-bottom: 1rem;
+  background-color: var(--contrasting-color);
+  color: var(--menufootertext-color);
+  padding-bottom: 1rem;
 }
 
 /* Grey Background for sections*/
 .boxbackgroundcolor {
-    background-color: var(--boxbackground-color);
+  background-color: var(--boxbackground-color);
 }
 
 /*  -----------------Other styles ----------------- */
 h1 {
-    color: var(--contrasting-color);
+  color: var(--contrasting-color);
 }
 
 .spacingsection {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* Form Customisation  */
 #textarea {
-    height: 15rem;
+  height: 15rem;
 }
 
 #hardware .card-img-overlay {
-    padding-top: 2px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: left;
-    font-size: 1rem;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  font-size: 1rem;
 }
 
 #hardware .card-title {
-    font-weight: bold;
-    font-size: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
-
 
 /* Button form, Button Return, Button book, subscribe and button Nav on Ecosystem section*/
 .custombutton-filled {
-    border: 2px solid white;
-    background-color: var(--contrasting-color);
-    color: var(--highlight-color);
-    font-weight: bold;
+  border: 2px solid white;
+  background-color: var(--contrasting-color);
+  color: var(--highlight-color);
+  font-weight: bold;
 }
 
 .custombutton-filled:hover {
-    border: 2px solid #2980B9;
-    background-color: #2980B9;
-    color: white;
-    font-weight: bold;
+  border: 2px solid #2980b9;
+  background-color: #2980b9;
+  color: white;
+  font-weight: bold;
 }
 
 #ecosystem .nav-link {
-    --bs-nav-link-color: var(--contrasting-color);
-    font-weight: bold;
-
+  --bs-nav-link-color: var(--contrasting-color);
+  font-weight: bold;
 }
 
 #ecosystem .nav-pills {
-    --bs-nav-pills-link-active-color: var(--highlight-color);
-    --bs-nav-pills-link-active-bg: var(--contrasting-color);
+  --bs-nav-pills-link-active-color: var(--highlight-color);
+  --bs-nav-pills-link-active-bg: var(--contrasting-color);
 }
-
-
-
 
 /* Card on Flyshop */
 #services .card-title,
 #services .card-footer {
-    font-weight: Bold;
+  font-weight: Bold;
 }
 
 #services a {
-    color: var(--contrasting-color);
+  color: var(--contrasting-color);
 }
 
 #services a:hover {
-    color: #2980B9;
+  color: #2980b9;
 }
 
 /* ----------------- Screen Re-sizing ----------------------- */
 /* Medium devices (576px and up) */
 @media screen and (min-width: 768px) {
+  /* Logo - Font and size */
+  .logotext {
+    font-size: 1.5rem;
+  }
 
-    /* Logo - Font and size */
-    .logotext {
-        font-size: 1.5rem;
-    }
+  /* Heading - Font and size */
+  .headingtext {
+    font-family: var(--font-menuheadingbody);
+    font-weight: 700;
+    font-size: 2rem;
+  }
 
-    /* Heading - Font and size */
-    .headingtext {
-        font-family: var(--font-menuheadingbody);
-        font-weight: 700;
-        font-size: 2rem;
-    }
+  #hardware .card-img-overlay {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+  }
 
-    #hardware .card-img-overlay {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: left;
-        font-size: 1.2rem;
-    }
+  #hardware .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
 
-    #hardware .card-title {
-        font-weight: bold;
-        font-size: 1.2rem;
-    }
+  /* Navbar */
+  #menu .dropdown-item {
+    text-align: left;
+  }
 
-    /* Navbar */
-    #menu .dropdown-item {
-        text-align: left;
-    }
-
-    #services .card-body {
-        min-height: 219px;
-    }
+  #services .card-body {
+    min-height: 219px;
+  }
 }
