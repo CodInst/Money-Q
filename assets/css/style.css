@@ -181,3 +181,12 @@ h1 {
     min-height: 219px;
   }
 }
+
+/* large and extra large devices (992px and up) */
+@media screen and (min-width: 992px) {
+
+#footer {
+    display: none;
+}
+
+}
