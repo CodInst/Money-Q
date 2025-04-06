@@ -62,9 +62,30 @@ body {
   color: initial; /* Takes initial value of the property */
 }
 
-/* Game Section Customisation */
+/* Background for sections */
+.boxbackgroundcolor {
+  background-color: var(--boxbackground-color);
+}
+
+/* Game Section Customization */
 #game span {
   display: block;
+}
+
+.full-name {
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+#FullName {
+  height: 35px;
+  width: 200px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: auto;
 }
 
 #game i {
@@ -87,7 +108,7 @@ body {
   text-align: center;
   font-style: italic;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 0px 2px;
 }
 
@@ -148,11 +169,6 @@ input::placeholder {
   color: red;
 }
 
-/* Background for sections*/
-.boxbackgroundcolor {
-  background-color: var(--boxbackground-color);
-}
-
 /* Footer - Font, color and size */
 #footer {
   background-color: var(--contrasting-color);
@@ -204,7 +220,7 @@ h1 {
   }
 
   #question {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 0px 50px;
   }
 
@@ -222,17 +238,12 @@ h1 {
 
   .scoring {
     padding: 0px 50px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
 /* large and extra large devices (992px and up) */
 @media screen and (min-width: 992px) {
-  /* Footer */
-  #footer {
-    display: none;
-  }
-
   /* Game Section Customisation */
   #game i {
     font-size: 5rem;
@@ -247,7 +258,7 @@ h1 {
   }
 
   #question {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0px 100px;
   }
 
@@ -259,6 +270,7 @@ h1 {
 
   .scoring {
     padding: 0px 100px;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
+
 }
