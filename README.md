@@ -58,8 +58,10 @@ Comment: The colors used are intended.
 
 ## Testing JavaScript with Js Hint:
 
-No error found, It contains only warnings
-All semi-colon checked
+No error found, It contains only warnings.
+All semi-colons checked.
+
+(Main Image)
 
 ## Testing JavaScript with Chrome Console:
 
