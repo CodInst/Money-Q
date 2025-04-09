@@ -46,7 +46,7 @@ The JavaScript code contains:
 
 (image)
 
-#### Testing with Lighthouse:
+## Testing with Lighthouse:
 
 .The page "index.html"
 (Main Image)
@@ -56,28 +56,14 @@ Comment: The colors used are intended.
 (Main Image)
 Comment: The colors used are intended.
 
+## Testing JavaScript with Js Hint:
 
+No error found, It contains only warnings
+All semi-colon checked
 
+## Testing JavaScript with Chrome Console:
 
-
-Best practices issues are addressed in the section 
-#### Unfixed Bug 
-
-![image](https://github.com/user-attachments/assets/b6410ae1-1f4f-42ca-a9ea-4837b2e915ed)
-
-## Validation
-
-W3C Html and CSS
-
-## Unfixed Bug
-
--Font Awesome: The javascript "plug" works on and off.
-
-Test environment
-![image](https://github.com/user-attachments/assets/8f7c4a99-ba80-4745-80db-be176c4b6295)
-
-Once deployed,
-
+No error found
 
 ## Credits
 
