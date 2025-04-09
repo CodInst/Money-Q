@@ -1,13 +1,13 @@
-![the-money-quiz-logo](assets/images*)
+![alt text](https://github.com/CodInst/Money-Q/blob/main/assets/images/money-quiz.jpg "Logo Money Quiz")
 
 # The Money Quiz
 
-The Flying Nerds is about what it takes to build, to acquire, to own and to fly a drone.
-The website aims at promoting products and services related to educational drones.
+The Money Quiz will test your general knowledge about key historical events that have shaped our modern economic system.
+The quiz contains 20 questions displayed randomly.
 
 ![The Flying Nerds](https://github.com/user-attachments/assets/22c3f174-986a-47d1-8f15-03eb46bcb3d9)
 
-## Features
+## Features HTML/CSS/BootStrap
 -A distinctive and customised logo (See above).
 
 - An extensive, responsive, colourful and sticky menu:
@@ -26,12 +26,10 @@ The website aims at promoting products and services related to educational drone
 
 ![image](https://github.com/user-attachments/assets/0e6f8ff2-7b58-4a33-8959-87c87d4a7572)
 
+## Features JavaScript
 
 ## Comments: Testing
-## I have lengthy comments to put regarding testing. I have been told that the deadline for submission, is for midday, today. I will submit it incomplete.
-## I found the interaction with slack very unhelpful particularly on the last hours before submission of the project.
-## I spent more than a bloody hour to debug the font awesome javascipt.
-## Migration issue with my project...
+
 
 #### Chrome Lighthouse:
 
