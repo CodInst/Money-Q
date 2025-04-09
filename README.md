@@ -5,35 +5,60 @@
 The Money Quiz will test your general knowledge about key historical events that have shaped our modern economic system.
 The quiz contains 20 questions displayed randomly.
 
-![The Flying Nerds](https://github.com/user-attachments/assets/22c3f174-986a-47d1-8f15-03eb46bcb3d9)
+Multiple display page 1
+Multiple display page 2
 
 ## Features HTML/CSS/BootStrap
+
 -A distinctive and customised logo (See above).
 
-- An extensive, responsive, colourful and sticky menu:
+- An extensive, responsive and colourful website and menu:
+The website combined HTML, CSS and bootstrap
 
-![image](https://github.com/user-attachments/assets/1fa13efc-b656-4e07-9d71-26037874b340)
+Include an image
 
-- A picture and video gallery:
+-The website contains two pages:
+.One page describing the rules and the nature of teh quiz
+.One page tu run the quiz
 
-![image](https://github.com/user-attachments/assets/d886eba6-d682-4a6c-b924-850d6c54b8b3)
-
-- A contact page with a google map and a form:
-
-![image](https://github.com/user-attachments/assets/9fc92049-c24c-411d-947f-1e414b65014e)
-
-- A newsletter subscription field with a modal pop up:
-
-![image](https://github.com/user-attachments/assets/0e6f8ff2-7b58-4a33-8959-87c87d4a7572)
+Include 2 images
 
 ## Features JavaScript
 
-## Comments: Testing
+The JavaScript code contains:
+.10 functions
+.Only one function with one argument
+.One global variable
+
+## Testing with W3C HTML
+
+.The page "index.html" contains no error.
+
+(image)
+
+.The page "quiz.html" contains no error.
+
+(image)
+
+## Testing with CSS
+
+.The stylesheet contains no error.
+
+(image)
+
+#### Testing with Lighthouse:
+
+.The page "index.html"
+(Main Image)
+Comment: The colors used are intended.
+
+.The page "quiz.html
+(Main Image)
+Comment: The colors used are intended.
 
 
-#### Chrome Lighthouse:
 
-![image](https://github.com/user-attachments/assets/d2a6831b-532a-4ed2-9c04-1b12a2fa2eaf)
+
 
 Best practices issues are addressed in the section 
 #### Unfixed Bug 
@@ -56,6 +81,6 @@ Once deployed,
 
 ## Credits
 
-All pictures displayed and used are property of @TheCreativeNerds.ie (Me).
-
-Initially purchased with a commercial licence and re-worked graphically for consumption.
+.All pictures displayed and used are property of @TheCreativeNerds.ie (Me).
+.Initially purchased with a commercial licence and re-worked graphically for consumption.
+.Incrementscore functions, in the project, have been borrowed from the <strong>Love Math</strong> project.

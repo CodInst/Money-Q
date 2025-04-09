@@ -23,9 +23,11 @@ const quiz = {
   2008: "When did The 'Global Financial Crisis' occur?",
   2010: "When did The 'Sovereign Debt Crisis' start?",
   2016: 'When did the Brexit occur?'
-}
+};
 
-
+/**
+ * The function below will be loading a the page
+ */
 document.addEventListener('DOMContentLoaded', function() {
   let formElement = document.getElementById("createAccountForm");
   formElement.addEventListener('submit', handleSubmit);
@@ -36,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('fullname').focus();
 
   function handleSubmit(e) {
-      e.preventDefault()
+      e.preventDefault();
       let formData = e.target;
       let fullName = formData.fullNameField.value;
       let feedbackName = document.getElementById('feedbackName');
@@ -54,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
 
-})
+});
 
 /**
 * The function will pick randomly a question from the Object Quiz
@@ -107,7 +109,7 @@ function checkAnswer() {
       } else {
           alert(`You answered ${userAnswer}. The correct answer was ${valueRandomQuestion}.`);
           incrementWrongAnswer();
-      };
+      }
 
       // Delete the key/value pair used from the Object to avoid being used again.
       delete quiz[valueRandomQuestion];
